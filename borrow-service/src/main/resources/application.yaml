@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://8.130.43.168:3306/test_spring_cloud
+    #    zeroDateTimeBehavior=CONVERT_TO_NULL
+    username: root
+    password: abC123456!
