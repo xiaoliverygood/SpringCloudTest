@@ -9,8 +9,5 @@ spring:
     username: root
     password: abC123456!
 
-eureka:
-  # 开启之前需要修改一下客户端设置（虽然是服务端
-  client:
-    service-url:
-      defaultZone: http://localhost:8888/eureka
+  application:
+    name: userService
